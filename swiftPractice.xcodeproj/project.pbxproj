@@ -17,6 +17,7 @@
 		0995554C2C6341640060591E /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995554B2C6341640060591E /* WelcomePage.swift */; };
 		0995554E2C634C0E0060591E /* FeaturesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995554D2C634C0E0060591E /* FeaturesPage.swift */; };
 		099555502C634C380060591E /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995554F2C634C380060591E /* FeatureCard.swift */; };
+		099555522C6361000060591E /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099555512C6361000060591E /* DiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0995554B2C6341640060591E /* WelcomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
 		0995554D2C634C0E0060591E /* FeaturesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesPage.swift; sourceTree = "<group>"; };
 		0995554F2C634C380060591E /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		099555512C6361000060591E /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		097475E22C630FD3008CB61B /* swiftPractice */ = {
 			isa = PBXGroup;
 			children = (
+				099555512C6361000060591E /* DiceView.swift */,
 				097475E32C630FD3008CB61B /* swiftPracticeApp.swift */,
 				097475E52C630FD3008CB61B /* ContentView.swift */,
 				0995554B2C6341640060591E /* WelcomePage.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0995554C2C6341640060591E /* WelcomePage.swift in Sources */,
+				099555522C6361000060591E /* DiceView.swift in Sources */,
 				0995554E2C634C0E0060591E /* FeaturesPage.swift in Sources */,
 				097475E62C630FD3008CB61B /* ContentView.swift in Sources */,
 				097475E42C630FD3008CB61B /* swiftPracticeApp.swift in Sources */,
