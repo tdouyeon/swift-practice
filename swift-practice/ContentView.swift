@@ -24,7 +24,10 @@ struct ContentView: View {
 
 
     var body: some View {
+ 
+
         TabView {
+            FriendView()
             // selection : 현재 선택된 탭을 나타내는 상태 변수
             // $selection: 이 변수를 바인딩으로 사용하겠다는 의미, $ 변수가 변경되면 자동으로 UI 업데이트
             TabView(selection: $selection) {

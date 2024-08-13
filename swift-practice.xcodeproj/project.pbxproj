@@ -51,6 +51,8 @@
 		0966CB912C6A0395005DDB72 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB902C6A0395005DDB72 /* PageViewController.swift */; };
 		0966CB952C6A06EF005DDB72 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB942C6A06EF005DDB72 /* PageView.swift */; };
 		0966CB972C6AF977005DDB72 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB962C6AF977005DDB72 /* PageControl.swift */; };
+		0966CB992C6B01E7005DDB72 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB982C6B01E7005DDB72 /* Friend.swift */; };
+		0966CB9B2C6B064E005DDB72 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB9A2C6B064E005DDB72 /* FriendsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,8 @@
 		0966CB902C6A0395005DDB72 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		0966CB942C6A06EF005DDB72 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		0966CB962C6AF977005DDB72 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		0966CB982C6B01E7005DDB72 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		0966CB9A2C6B064E005DDB72 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +217,7 @@
 				0966CB352C69FAE2005DDB72 /* Landmark.swift */,
 				0966CB362C69FAE2005DDB72 /* ModelData.swift */,
 				0966CB332C69FAE2005DDB72 /* Profile.swift */,
+				0966CB982C6B01E7005DDB72 /* Friend.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				0966CB562C69FD91005DDB72 /* FeaturesPage.swift */,
 				0966CB552C69FD91005DDB72 /* ListView.swift */,
 				0966CB572C69FD91005DDB72 /* WelcomePage.swift */,
+				0966CB9A2C6B064E005DDB72 /* FriendsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -465,11 +471,13 @@
 				0966CB832C6A0104005DDB72 /* HikeBadge.swift in Sources */,
 				0966CB582C69FD91005DDB72 /* FeatureCard.swift in Sources */,
 				0966CB382C69FAE2005DDB72 /* Profile.swift in Sources */,
+				0966CB992C6B01E7005DDB72 /* Friend.swift in Sources */,
 				0966CB782C6A00D1005DDB72 /* CircleImage.swift in Sources */,
 				0966CB612C6A0020005DDB72 /* CategoryRow.swift in Sources */,
 				0966CB822C6A0104005DDB72 /* HikeGraph.swift in Sources */,
 				0966CB8D2C6A013A005DDB72 /* Badge.swift in Sources */,
 				0966CB3C2C69FAE2005DDB72 /* Hike.swift in Sources */,
+				0966CB9B2C6B064E005DDB72 /* FriendsView.swift in Sources */,
 				0966CB622C6A0020005DDB72 /* CategoryHome.swift in Sources */,
 				0966CB8C2C6A013A005DDB72 /* RotatedBadgeSymbol.swift in Sources */,
 				0966CB7A2C6A00D1005DDB72 /* MapView.swift in Sources */,

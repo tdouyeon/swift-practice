@@ -14,11 +14,12 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
     var pages: [Page]
     @Binding var currentPage: Int
 
+    // Coordinator 객체를 생성하여 SwiftUI와 UIKit 간의 상호작용 관리
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
 
-    // 뷰를 표시할 준비가 되면 해당 메서드를 한 번 호출한 다음 뷰 컨트롤러의 수명 주기를 관리
+    // 뷰를 표시할 준비가 되면 해당 메서드를 한 번 호출한 다음 뷰 컨트롤러의 수명 주기를 관리 (뷰 컨트롤러의 인스턴스를 생성하고 반환)
     func makeUIViewController(context: Context) -> UIPageViewController {
         let pageViewController = UIPageViewController(
             // 페이지 전환 시 사용할 스타일, 스크롤 외에 pageCurl(책 넘김) 도 있음
@@ -38,10 +39,12 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
     // SwiftUI 상태 변화에 따라 뷰 컨트롤러 업데이트
     func updateUIViewController(_ pageViewController: UIPageViewController, context: Context) {
         pageViewController.setViewControllers(
+            // context : SwiftUI의 Context 객체로, 현재 상태와 관련된 다양한 정보와 메서드가 포함되어 있음
+            // context과 currentPage를 활용해 현재 페이지에 해당하는 뷰 컨트롤러를 가져옴
             [context.coordinator.controllers[currentPage]], direction: .forward, animated: true)
     }
     
-    // UIPageViewControllerDataSource: 페이지 뷰 컨트롤러가 이전 페이지와 다음 페이지를 제공받기 위해 필요한 메서드를 정의
+    // UIPageViewControllerDataSource: 페이지 뷰 컨트롤러가 이전 페이지와 다음 페이지를 제공받기 위해 필요한 메서드를 정의, UIPageViewController와 상호작용 가능해짐
     class Coordinator: NSObject, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
         var parent: PageViewController
         var controllers = [UIViewController]()
