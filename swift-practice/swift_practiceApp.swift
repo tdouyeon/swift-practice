@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct swift_practiceApp: App {
@@ -14,6 +15,7 @@ struct swift_practiceApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView().environment(modelData)
+                .modelContainer(for: Friend.self)
         }
     }
 }
