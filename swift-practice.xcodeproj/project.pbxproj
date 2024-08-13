@@ -48,6 +48,9 @@
 		0966CB8C2C6A013A005DDB72 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB882C6A013A005DDB72 /* RotatedBadgeSymbol.swift */; };
 		0966CB8D2C6A013A005DDB72 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB892C6A013A005DDB72 /* Badge.swift */; };
 		0966CB8E2C6A013A005DDB72 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB8A2C6A013A005DDB72 /* BadgeSymbol.swift */; };
+		0966CB912C6A0395005DDB72 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB902C6A0395005DDB72 /* PageViewController.swift */; };
+		0966CB952C6A06EF005DDB72 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB942C6A06EF005DDB72 /* PageView.swift */; };
+		0966CB972C6AF977005DDB72 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB962C6AF977005DDB72 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +116,9 @@
 		0966CB882C6A013A005DDB72 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		0966CB892C6A013A005DDB72 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		0966CB8A2C6A013A005DDB72 /* BadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		0966CB902C6A0395005DDB72 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0966CB942C6A06EF005DDB72 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		0966CB962C6AF977005DDB72 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,9 +169,9 @@
 		0966CAFC2C69F839005DDB72 /* swift-practice */ = {
 			isa = PBXGroup;
 			children = (
+				0966CB282C69F9DC005DDB72 /* Model */,
 				0966CB4E2C69FC3E005DDB72 /* Resources */,
 				0966CB3D2C69FB6C005DDB72 /* Views */,
-				0966CB282C69F9DC005DDB72 /* Model */,
 				0966CAFD2C69F839005DDB72 /* swift_practiceApp.swift */,
 				0966CB012C69F83A005DDB72 /* Assets.xcassets */,
 				0966CB032C69F83A005DDB72 /* swift_practice.entitlements */,
@@ -214,6 +220,7 @@
 		0966CB3D2C69FB6C005DDB72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0966CB8F2C6A037A005DDB72 /* PageView */,
 				0966CB862C6A0127005DDB72 /* Badge */,
 				0966CB7B2C6A00F2005DDB72 /* Hike */,
 				0966CB6B2C6A007E005DDB72 /* Landmark */,
@@ -301,6 +308,16 @@
 				0966CB882C6A013A005DDB72 /* RotatedBadgeSymbol.swift */,
 			);
 			path = Badge;
+			sourceTree = "<group>";
+		};
+		0966CB8F2C6A037A005DDB72 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				0966CB902C6A0395005DDB72 /* PageViewController.swift */,
+				0966CB942C6A06EF005DDB72 /* PageView.swift */,
+				0966CB962C6AF977005DDB72 /* PageControl.swift */,
+			);
+			path = PageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,7 +453,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0966CB712C6A00C3005DDB72 /* LandmarkRow.swift in Sources */,
+				0966CB912C6A0395005DDB72 /* PageViewController.swift in Sources */,
 				0966CB392C69FAE2005DDB72 /* HexagonParameters.swift in Sources */,
+				0966CB972C6AF977005DDB72 /* PageControl.swift in Sources */,
 				0966CB592C69FD91005DDB72 /* DiceView.swift in Sources */,
 				0966CB792C6A00D1005DDB72 /* FavoriteButton.swift in Sources */,
 				0966CB842C6A0104005DDB72 /* HikeView.swift in Sources */,
@@ -459,6 +478,7 @@
 				0966CB5C2C69FD91005DDB72 /* WelcomePage.swift in Sources */,
 				0966CB732C6A00C3005DDB72 /* LandmarkDetail.swift in Sources */,
 				0966CB852C6A0104005DDB72 /* GraphCapsule.swift in Sources */,
+				0966CB952C6A06EF005DDB72 /* PageView.swift in Sources */,
 				0966CB8B2C6A013A005DDB72 /* BadgeBackground.swift in Sources */,
 				0966CB5B2C69FD91005DDB72 /* FeaturesPage.swift in Sources */,
 				0966CB632C6A0020005DDB72 /* CategoryItem.swift in Sources */,
