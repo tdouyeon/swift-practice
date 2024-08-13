@@ -53,6 +53,10 @@
 		0966CB972C6AF977005DDB72 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB962C6AF977005DDB72 /* PageControl.swift */; };
 		0966CB992C6B01E7005DDB72 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB982C6B01E7005DDB72 /* Friend.swift */; };
 		0966CB9B2C6B064E005DDB72 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB9A2C6B064E005DDB72 /* FriendsView.swift */; };
+		0966CBA02C6B2C52005DDB72 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CB9F2C6B2C52005DDB72 /* Movie.swift */; };
+		0966CBA22C6B2CC5005DDB72 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CBA12C6B2CC5005DDB72 /* MovieView.swift */; };
+		0966CBA42C6B2E59005DDB72 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CBA32C6B2E59005DDB72 /* SampleData.swift */; };
+		0966CBA62C6B3F92005DDB72 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966CBA52C6B3F92005DDB72 /* MovieDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +127,10 @@
 		0966CB962C6AF977005DDB72 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		0966CB982C6B01E7005DDB72 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		0966CB9A2C6B064E005DDB72 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		0966CB9F2C6B2C52005DDB72 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0966CBA12C6B2CC5005DDB72 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		0966CBA32C6B2E59005DDB72 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		0966CBA52C6B3F92005DDB72 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +226,8 @@
 				0966CB362C69FAE2005DDB72 /* ModelData.swift */,
 				0966CB332C69FAE2005DDB72 /* Profile.swift */,
 				0966CB982C6B01E7005DDB72 /* Friend.swift */,
+				0966CB9F2C6B2C52005DDB72 /* Movie.swift */,
+				0966CBA32C6B2E59005DDB72 /* SampleData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -225,6 +235,7 @@
 		0966CB3D2C69FB6C005DDB72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0966CB9C2C6B2C27005DDB72 /* Movie */,
 				0966CB8F2C6A037A005DDB72 /* PageView */,
 				0966CB862C6A0127005DDB72 /* Badge */,
 				0966CB7B2C6A00F2005DDB72 /* Hike */,
@@ -324,6 +335,15 @@
 				0966CB962C6AF977005DDB72 /* PageControl.swift */,
 			);
 			path = PageView;
+			sourceTree = "<group>";
+		};
+		0966CB9C2C6B2C27005DDB72 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				0966CBA12C6B2CC5005DDB72 /* MovieView.swift */,
+				0966CBA52C6B3F92005DDB72 /* MovieDetail.swift */,
+			);
+			path = Movie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,6 +479,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0966CB712C6A00C3005DDB72 /* LandmarkRow.swift in Sources */,
+				0966CBA42C6B2E59005DDB72 /* SampleData.swift in Sources */,
+				0966CBA62C6B3F92005DDB72 /* MovieDetail.swift in Sources */,
 				0966CB912C6A0395005DDB72 /* PageViewController.swift in Sources */,
 				0966CB392C69FAE2005DDB72 /* HexagonParameters.swift in Sources */,
 				0966CB972C6AF977005DDB72 /* PageControl.swift in Sources */,
@@ -472,6 +494,7 @@
 				0966CB582C69FD91005DDB72 /* FeatureCard.swift in Sources */,
 				0966CB382C69FAE2005DDB72 /* Profile.swift in Sources */,
 				0966CB992C6B01E7005DDB72 /* Friend.swift in Sources */,
+				0966CBA02C6B2C52005DDB72 /* Movie.swift in Sources */,
 				0966CB782C6A00D1005DDB72 /* CircleImage.swift in Sources */,
 				0966CB612C6A0020005DDB72 /* CategoryRow.swift in Sources */,
 				0966CB822C6A0104005DDB72 /* HikeGraph.swift in Sources */,
@@ -496,6 +519,7 @@
 				0966CB6A2C6A005A005DDB72 /* ProfileHost.swift in Sources */,
 				0966CB682C6A005A005DDB72 /* ProfileSummary.swift in Sources */,
 				0966CB3B2C69FAE2005DDB72 /* ModelData.swift in Sources */,
+				0966CBA22C6B2CC5005DDB72 /* MovieView.swift in Sources */,
 				0966CB722C6A00C3005DDB72 /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
